@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+
+#include <stdio.h>
+
+int main() {
+    int n;
+
+    // Input: read an integer
+    scanf("%d", &n);
+
+    // Output: print odd numbers from 1 to n
+    for (int i = 1; i <= n; i += 2) {
+        printf("%d", i);
+        if (i + 2 <= n) {
+            printf(" ");
+        }
+    }
+
+    printf("\n"); // Newline after output
+    return 0;
+}
+
+
+
